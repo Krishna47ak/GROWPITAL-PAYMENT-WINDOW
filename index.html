@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growpital</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="" id="mainhead">Growpital</a>
+            <a href="" class="navcontent">Home</a>
+            <a href="" class="navcontent">About</a>
+            <a href="" class="navcontent">Service</a>
+            <a href="" class="navcontent">Contact Us</a>
+            <div id="navicons">
+                <a href="" class="navicon"><iconify-icon icon="iconoir:bell-notification" width="35"></iconify-icon></a>
+                <a href="" class="navicon"><iconify-icon icon="uil:user-circle"></iconify-icon></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="maincontent">
+            <span class="close">X</span>
+            <p>Money to added to wallet <br> from bank account</p>
+            <p id="transAmount"><span>&#8377;</span> 15000</p>
+            <p class="dateTime">25 Sept 2022, 12:00pm</p>
+            <br>
+            <div class="alert">
+                <iconify-icon icon="ic:outline-check-circle" id="ok"></iconify-icon>
+                <p class="start">Transaction Complete!</p>
+                <p class="end">Tap to view this transaction</p>
+            </div>
+            <br>
+            <div id="details">
+                <div>
+                    <br>
+                    <p style="color: rgb(255, 174, 0);">From</p>
+                    <p id="from" style="font-size: 20px;">Saurabh sharma</p>
+                    <p id="fromDetails">SBI, IFSC SBINO16095 <br> A/c No. XXXXXXXXXX5736</p>
+                    <p class="dateTime">25 Sept 2022, 12:00pm</p>
+                </div>
+                <br>
+                <div>
+                    <p style="color: rgb(255, 174, 0);">To</p>
+                    <p id="to" style="font-size: 20px;">Saurabh sharma</p>
+                    <p id="toDetails">Growpital Wallet<br>Ref No. DBTR/222201998174</p>
+                    <p class="dateTime">25 Sept 2022, 12:00pm</p>
+                </div>
+                <br>
+                <br>
+                <p id="payMethod">Payment Method : UPI</p>
+                <p >Transaction ID : <span id="transactId">DBTR/222201998174</span><a id="btCopy" onclick="copyText()"><img src="Images/copy.png" alt=""></a></p>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div class="footerButton">
+                <button href="" class="help">Help</button>
+                <button href="" class="share">Share</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
