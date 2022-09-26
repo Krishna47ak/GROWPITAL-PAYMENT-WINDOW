@@ -19,6 +19,10 @@ nav a {
     font-weight: 600;
 }
 
+nav a:hover {
+    color: rgb(163, 163, 163);
+}
+
 .navcontent {
     padding: 0px 50px;
     padding-top: 35px;

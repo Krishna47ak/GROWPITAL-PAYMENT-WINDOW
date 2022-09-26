@@ -41,3 +41,21 @@ var transferredAmount = document.getElementById("transAmount");
 // Updating sender's name
 var fromName = document.getElementById("from");
 
+// Payment method
+var PayMethod;
+
+switch (PayMethod) {
+  case "UPI":
+    document.getElementById("payMethod").innerHTML = "Payment Method : UPI"
+    break;
+  case "Credit/Debit/ATM card":
+        document.getElementById("payMethod").innerHTML = "Payment Method : Credit/Debit/ATM card"
+    break;
+  case "Net Banking":
+        document.getElementById("payMethod").innerHTML = "Payment Method : Net Banking"
+    break;
+
+  default:
+    break;
+}
+
