@@ -61,6 +61,55 @@ body {
     border-radius: 10px;
 }
 
+@media screen and (max-width:700px){
+    #maincontent {
+        margin: 20px 30px;
+        margin-top: 40px;
+        font-size: 10px;
+        padding: 25px 15px 25px 5px;
+    }
+    #maincontent p {
+        padding-top: 5px;
+    }
+
+    #mainhead {
+        padding-right: 5px;
+        font-size: 20px;
+    }
+    nav {
+        border-radius: 5px;
+    }
+
+    .navcontent {
+        font-size: 9px;
+        padding: 0px 5px;
+        padding-top: 30px;
+    }
+    #navicons {  
+        margin-left: auto;
+        margin-right: 2px;
+    }
+    .navicon {
+        font-size: 20px;
+        padding-top: 25px;
+        float: right;
+        padding-left: 0px;
+    }
+    .close{
+        right:0px;
+        left: 85%;
+        padding: 0px;
+    }
+    
+    #from , #to , .start {
+        font-size: 15px !important;
+    }
+    
+    #ok {
+        font-size: 33px !important;
+    }
+}
+
 .close {
     right: 500px;
     cursor: pointer;
@@ -71,7 +120,6 @@ body {
 
 #maincontent p {
     padding-left: 20px;
-    /* padding: 30px; */
 }
 
 .dateTime {
@@ -83,7 +131,6 @@ body {
     background: rgb(60 90 71);
     color: white;
     border-radius: 10px;
-    /* text-align: center; */
     margin-left: 15px;
     padding: 10px ;
 }
@@ -115,6 +162,10 @@ body {
 
 }
 
+#from , #to {
+    font-size: 20px;
+}
+
 #fromDetails , #toDetails {
     font-style: italic;
     color: rgb(190, 189, 189);
@@ -135,7 +186,6 @@ body {
 }
 
 .help , .share{
-    /* display:inline-block; */
     width: 30%;
     height: 50px;
     font-size: 18px;
